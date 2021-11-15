@@ -1302,6 +1302,14 @@ body._lock {
   background-color: #808080;
 }
 
+.card._active .card:before {
+  display: none;
+}
+
+.card._active .card:after {
+  display: none;
+}
+
 .card._active .card__crisis {
   display: block;
   font-size: 15px;
@@ -1686,6 +1694,10 @@ body._lock {
 
   .cards-chronological {
     margin: 0;
+  }
+
+  .card {
+    height: 157px;
   }
 
   .card:after {
