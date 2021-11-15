@@ -1457,7 +1457,7 @@ body._lock {
   }
 
   .chronological__column:first-child:before {
-    top: 3124px;
+    top: 3156px;
     left: 50%;
     -webkit-transform: translate(-50%, 0) rotate(90deg);
         -ms-transform: translate(-50%, 0) rotate(90deg);
@@ -1489,6 +1489,18 @@ body._lock {
   .chronological__column:first-child .chronological__cards:nth-child(2) .card:first-child .point {
     display: block;
     background-color: #f4d1c2;
+  }
+
+  .chronological__column:first-child .chronological__cards:nth-child(2) .card:first-child._active:after {
+    display: none;
+  }
+
+  .chronological__column:first-child .chronological__cards:nth-child(2) .card:first-child._active:before {
+    display: none;
+  }
+
+  .chronological__column:first-child .chronological__cards:nth-child(2) .card:first-child._active .point {
+    display: none;
   }
 
   .chronological__column:first-child .chronological__cards:nth-child(3) {
@@ -1546,6 +1558,18 @@ body._lock {
     background-color: #ffe990;
   }
 
+  .chronological__column:first-child .chronological__cards:nth-child(11) .card:first-child._active:after {
+    display: none;
+  }
+
+  .chronological__column:first-child .chronological__cards:nth-child(11) .card:first-child._active:before {
+    display: none;
+  }
+
+  .chronological__column:first-child .chronological__cards:nth-child(11) .card:first-child._active .point {
+    display: none;
+  }
+
   .chronological__column:first-child .chronological__cards:nth-child(12) {
     margin: 0px 0px 5px 0px;
   }
@@ -1571,6 +1595,18 @@ body._lock {
   .chronological__column:first-child .chronological__cards:nth-child(13) .card:first-child .point {
     display: block;
     background-color: #d2d2d2;
+  }
+
+  .chronological__column:first-child .chronological__cards:nth-child(13) .card:first-child._active:after {
+    display: none;
+  }
+
+  .chronological__column:first-child .chronological__cards:nth-child(13) .card:first-child._active:before {
+    display: none;
+  }
+
+  .chronological__column:first-child .chronological__cards:nth-child(13) .card:first-child._active .point {
+    display: none;
   }
 
   .chronological__column:last-child {
@@ -1643,6 +1679,18 @@ body._lock {
     background-color: #ffe990;
   }
 
+  .chronological__column:last-child .chronological__cards:nth-child(7) .card:last-child._active:after {
+    display: none;
+  }
+
+  .chronological__column:last-child .chronological__cards:nth-child(7) .card:last-child._active:before {
+    display: none;
+  }
+
+  .chronological__column:last-child .chronological__cards:nth-child(7) .card:last-child._active .point {
+    display: none;
+  }
+
   .chronological__column:last-child .chronological__cards:nth-child(8) {
     margin: 0px 0px 5px 0px;
   }
@@ -1676,6 +1724,18 @@ body._lock {
   .chronological__column:last-child .chronological__cards:nth-child(11) .card:last-child .point {
     display: block;
     background-color: #c9e8fb;
+  }
+
+  .chronological__column:last-child .chronological__cards:nth-child(11) .card:last-child._active:after {
+    display: none;
+  }
+
+  .chronological__column:last-child .chronological__cards:nth-child(11) .card:last-child._active:before {
+    display: none;
+  }
+
+  .chronological__column:last-child .chronological__cards:nth-child(11) .card:last-child._active .point {
+    display: none;
   }
 
   .chronological__column:last-child .chronological__cards:nth-child(12) {
