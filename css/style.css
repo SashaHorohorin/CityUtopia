@@ -1187,6 +1187,7 @@ body._lock {
 
 .card__name {
   font-size: 9px;
+  font-weight: bold;
 }
 
 .card__img {
@@ -1697,7 +1698,7 @@ body._lock {
   }
 
   .card {
-    height: 157px;
+    height: 155px;
   }
 
   .card:after {
@@ -1727,8 +1728,7 @@ body._lock {
   }
 
   .card__text {
-    font-size: 8px;
-    max-height: 40px;
+    font-size: 7.8px;
   }
 
   .point {
