@@ -1706,6 +1706,11 @@ body._lock {
     left: 109%;
   }
 
+  .card__text {
+    font-size: 8px;
+    max-height: 40px;
+  }
+
   .point {
     top: 48.5%;
     left: 170%;
