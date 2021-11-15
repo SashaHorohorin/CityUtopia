@@ -1706,6 +1706,14 @@ body._lock {
     left: 109%;
   }
 
+  .card__name {
+    font-size: 8px;
+  }
+
+  .card__category {
+    font-size: 8px;
+  }
+
   .card__text {
     font-size: 8px;
     max-height: 40px;
